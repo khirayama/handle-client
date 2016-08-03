@@ -17,7 +17,7 @@
     "lint": "eslint -c=package.json",
     "test": "mocha --require=babel-core/register client/test/**/*.js",
     "watch:test": "npm test -- --watch",
-    "start": "npm run watch"
+    "start": "npm run develop"
   },
   "author": "khirayama",
   "repository": {

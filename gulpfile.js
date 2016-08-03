@@ -48,12 +48,10 @@ var options = {
   },
   server: {
     browserSync: {
-      // server: {
-      //   baseDir: DIST_ROOT
-      // },
-      proxy: 'localhost:3000',
-      notify: false,
-      open: true
+      server: {
+        baseDir: DIST_ROOT
+      },
+      notify: false
     }
   }
 };
