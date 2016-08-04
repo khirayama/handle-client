@@ -49,10 +49,10 @@ export default function SettingsPage() {
           <section className="list">
             <ul>
               <li className="list-item">
-                <a href="/api/v1/auth/twitter" className="list-item-link">Sign in with Twitter</a>
+                <a href={ `${ config.apiServer }/api/v1/auth/twitter` } className="list-item-link">Sign in with Twitter</a>
               </li>
               <li className="list-item">
-                <a href="/api/v1/logout" className="list-item-link">Sign out</a>
+                <a href={ `${ config.apiServer }/api/v1/logout` } className="list-item-link">Sign out</a>
               </li>
               <li className="list-item">
                 <div className="list-item-text">Delete account</div>

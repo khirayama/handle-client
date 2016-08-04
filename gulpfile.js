@@ -48,6 +48,7 @@ var options = {
   },
   server: {
     browserSync: {
+      port: '8000',
       server: {
         baseDir: DIST_ROOT
       },
